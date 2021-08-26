@@ -1,0 +1,151 @@
+
+   body{
+    background-image: url("image/register.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.container {
+ padding: 16px;
+}
+.container h1{
+ text-align: center;
+ color: red;
+}
+
+input[type=text], input[type=password] {
+ width: 100%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+ background-color: #ddd;
+ outline: none;
+}
+
+
+hr {
+ border: 1px solid #f1f1f1;
+ margin-bottom: 25px;
+}
+
+.RegisterButton{
+ background-color: #4CAF50;
+ color: white;
+ padding: 16px 20px;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+ opacity: 0.9;
+}
+
+.RegisterButton:hover {
+ opacity:1;
+}
+
+a {
+ color: dodgerblue;
+}
+
+.signin {
+ background-color: #f1f1f1;
+ text-align: center;
+}
+.login1{
+   width: 500px;
+   height: 500px;
+   margin-left: 500px;
+   background-image: url("");
+}
+@media(max-width:600px){
+  .login1{
+     width:100%;
+     margin-left: 0px;
+     font-size:6px ;
+  } 
+  .RegisterButton{
+     width:10% ;
+     height: 2px;
+     text-align: start;
+     font-size:6px ;
+     padding: 6px 4px;
+    margin: 2px 0;
+     
+  }
+  .container {
+   padding: 6px;
+  }
+  input[type=text], input[type=password] {
+   width: 100%;
+   padding: 5px;
+   margin: 1px 0 2px 0;
+   display: inline-block;
+   border: none;
+   background: #f1f1f1;
+  }
+  hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 2px;
+  }
+  .field ::placeholder{
+     font-size: 5px;
+  }
+  .field input{
+     width: 100%;
+  }
+  .container h1{
+     margin-left: 45px;
+     text-align: start;
+  }
+  .container-signin p {
+ text-align: start;
+  }
+}
+  @media(min-width:600px) and (max-width:1024px){
+   .login1{
+      width:100%;
+      margin-left: 5px;
+      font-size:20px ;
+   } 
+   .RegisterButton{
+      width:15% ;
+      height: 30px;
+      text-align: start;
+      font-size:20px ;
+      padding: 1px 1px;
+     margin: 16px 12px;
+      
+   }
+   .container {
+    padding: 20px;
+   }
+   input[type=text], input[type=password] {
+    width: 100%;
+    padding: 7px;
+    margin: 1px 0 2px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+   }
+   hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 12px;
+   }
+   .field ::placeholder{
+      font-size: 15px;
+   }
+   .field input{
+      width: 100%;
+   }
+   .container h1{
+      margin-left: 45px;
+      text-align: start;
+   }
+   .container-signin p {
+  text-align: start;
+   }
+ }

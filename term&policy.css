@@ -1,0 +1,20 @@
+html{
+    font-size: 16px;
+    
+}
+h2{
+    color: red;
+}
+body{
+    background-color: black;
+    transition: infinite;
+}
+body:hover{
+    background-color: rgb(182, 179, 176);
+    transition: infinite;
+    background-blend-mode: saturation;
+    background-color: white;
+}
+.security{
+    color: red;
+}
